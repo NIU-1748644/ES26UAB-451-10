@@ -4,6 +4,6 @@ QueMenges Team SCRUM
 Posiciones Equipo:
 
 - Santiago González Ballbé -- SCRUM MASTER
-- Nil
-- Guilherme
-- Uvén
+- Nil Vázquez Tarjuelo -- SCRUM TEAM
+- Guilherme Jimenez Aguas -- SCRUM TEAM 
+- Uvén Díaz López -- SCRUM TEAM
