@@ -1,0 +1,4 @@
+-Creación de Repositorio
+-Tablero de Trello
+-Asignación de roles
+-Creación de carpetas
