@@ -1,5 +1,6 @@
 ### DATA: 
-_Començament i finalització de la reunió_
+Empieza a las 15:30
+Termina a las 16:30
 ### Asistencia: 
 - Santiago González Ballbé
 - Nil Vázquez Tarjuelo 
