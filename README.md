@@ -1,4 +1,9 @@
 # QueMenges-Team
 QueMenges Team SCRUM
 
-KickOffMeeting:
+Posiciones Equipo:
+
+- Santiago González Ballbé -- SCRUM MASTER
+- Nil
+- Guilherme
+- Uvén
