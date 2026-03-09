@@ -1,4 +1,4 @@
 # QueMenges-Team
 QueMenges Team SCRUM
 
-KickOfMeeting:
+KickOffMeeting:
