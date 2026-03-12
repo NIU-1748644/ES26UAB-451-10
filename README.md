@@ -4,8 +4,8 @@ QueMenges Team SCRUM
 Rols:
 
 - Santiago González Ballbé (1748644) -- SCRUM MASTER
-- Nil Vázquez Tarjuelo -- SCRUM TEAM
-- Guilherme Jimenez Aguas -- SCRUM TEAM 
+- Nil Vázquez Tarjuelo (1620066) -- SCRUM TEAM
+- Guilherme Jimenez Aguas (1755057) -- SCRUM TEAM 
 - Uvén Díaz López (1748871) -- SCRUM TEAM
 
 Repartició:
