@@ -11,9 +11,9 @@ Rols:
 Repartició:
 
 - GRUP 1 : GESTIÓ DE COMPTES I CREACIÓ DE PERFILS D' USUARI -- Santiago González Ballbé
-- GRUP 2 : REALITZACIÓ DE COMANDES --
-- GRUP 3 : ENVIAMENT DE COMANDES --
-- GRUP 4 : PAGAMENT DE LA COMANDA --
-- GRUP 5 : VALORACIÓ DE LA COMANDA --
+- GRUP 2 : REALITZACIÓ DE COMANDES -- Nil Vázquez Tarjuelo
+- GRUP 3 : ENVIAMENT DE COMANDES -- Guilherme Jimenez Aguas
+- GRUP 4 : PAGAMENT DE LA COMANDA -- Guilherme Jimenez Aguas
+- GRUP 5 : VALORACIÓ DE LA COMANDA -- Guilherme Jimenez Aguas
 - GRUP 6 : FUNCIONALITATS ADDICIONALS -- Uvén Díaz López
-- ALTRES CONSIDERACIONS -- 
+- ALTRES CONSIDERACIONS -- Santiago González Ballbé / Uvén Díaz López
