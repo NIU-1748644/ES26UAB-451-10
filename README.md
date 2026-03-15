@@ -1,14 +1,4 @@
-# QueMenges-Team
-QueMenges Team SCRUM
-
-Rols:
-
-- Santiago González Ballbé (1748644) -- SCRUM MASTER
-- Nil Vázquez Tarjuelo (1620066) -- SCRUM TEAM
-- Guilherme Jimenez Aguas (1755057) -- SCRUM TEAM 
-- Uvén Díaz López (1748871) -- SCRUM TEAM
-
-#QueMenges - Team ES26UAB-451-10
+# QueMenges - Team ES26UAB-451-10
 
 ## Descripción del Proyecto
 Este repositorio contiene el desarrollo de las prácticas de Ingeniería del Software de la UAB.
