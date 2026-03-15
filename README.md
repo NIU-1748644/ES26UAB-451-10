@@ -18,7 +18,7 @@ El proyecto consiste en el diseño de **QueMenges**, una aplicación que permite
 
 ## Estructura del Repositorio
 
-* `/documents/`: Contiene los documentos formales generados para entregar (entregables) en formato PDF y en su formato editable original.
-* `/requirements/`: Fichas individuales de cada uno de los requisitos del sistema. Cada fichero está en formato Markdown y nombrado con su identificador único (ej. `RNF-8-01.md`).
-* `/minutes/`: Actas de todas las reuniones realizadas por el equipo (tanto internas como con el tutor). Usan el formato `meeting-<AAAA-MM-DD>.md`.
-* `/others/`: Directorio exclusivo para otros archivos auxiliares, documentos de soporte, y plantillas base proporcionadas.
+* `/documents/`: Contiene los documentos generados para entregar en formato PDF.
+* `/requirements/`: Fichas individuales de cada uno de los requisitos del sistema. Cada fichero está en formato Markdown y nombrado con su identificador.
+* `/minutes/`: Actas de todas las reuniones realizadas por el equipo.
+* `/others/`: Directorio para otros archivos auxiliares.
