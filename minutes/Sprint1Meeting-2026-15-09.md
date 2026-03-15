@@ -23,4 +23,4 @@ GRUP 6 : FUNCIONALIDADES ADICIONALES -- Uvén Díaz López
 
 ALTRES CONSIDERACIONS -- Santiago González Ballbé / Uvén Díaz López
 
-*Cabe destacar que hemos considerado para la repartición, que algunos grupos son mas pesados o complejos que otros.
+*Cabe destacar que hemos considerado para la repartición, que algunos grupos son más pesados o complejos que otros.
