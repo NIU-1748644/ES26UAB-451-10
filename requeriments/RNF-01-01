@@ -1,0 +1,18 @@
+### ID: 
+RNF-01-01 
+
+### Type/Category:
+No Funcional 
+
+### Version: 
+1.0
+
+### Title: 
+Restricción de pedidos a usuarios registrados
+
+### Description:
+El sistema permitirá realizar pedidos únicamente a aquellos usuarios que hayan completado el proceso de registro previo.
+
+### Relations:
+??
+### Comments:
