@@ -1,7 +1,6 @@
 ### Fecha: 
 03/05/2026
-Empieza a las 
-Termina a las 
+
 
 ### Asistencia: 
 - Santiago González Ballbé
