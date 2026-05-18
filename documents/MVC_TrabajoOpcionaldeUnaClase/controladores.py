@@ -9,7 +9,7 @@ class ControladorPlato:
         self.vista = VistaPlato()
 
 
-        self.lista_platos = []
+        self.lista_platos = [] #En controlador guardamos una lista de todos los platos
 
     def proponer_plato(self):
         #Pedimos los datos para crear el plato primero
@@ -18,7 +18,7 @@ class ControladorPlato:
         #Creamos el objeto Plato --> el Modelo
         nuevo_plato = Plato(nombre, precio, descripcion)
         
-        #Aqui damos la opcion de cambiar el precio de forma opcional por si se ha discutido con el cocinero
+          #Aqui damos la opcion de cambiar el precio de forma opcional por si se ha discutido con el cocinero
         if self.vista.preguntar_cambiar_precio() == "si":
             nuevo_precio = self.vista.pedir_nuevo_precio()
             nuevo_plato.establecer_precio(nuevo_precio)
@@ -35,7 +35,7 @@ class ControladorPlato:
             
             nuevo_plato.anadir_foto(foto)
         
-        #Para guardar en la lista global hacemos:
+         #Para guardar en la lista global hacemos:
         self.lista_platos.append(nuevo_plato)
         self.vista.mostrar_mensaje("Plato guardado con éxito!")
 
