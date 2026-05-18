@@ -7,7 +7,7 @@ class Plato:
 
 
         self.descripcion = descripcion
-        self.fotos = []
+        self.fotos = [] #lo hacemos como un array porque se pueden añadir varias, sin embargo se puede no añadir ninguna foto de referencia, por eso no lo pedimos en el init
 
 
     #Metodo sencillo para cambiar el precio más adelante si se discute con el Cocinero
