@@ -1,3 +1,5 @@
+#####CASO DE USO --> PROPONER PLATO
+
 from modelos import Plato
 
 from vistas import VistaPlato #Importamos vistas y modelos
