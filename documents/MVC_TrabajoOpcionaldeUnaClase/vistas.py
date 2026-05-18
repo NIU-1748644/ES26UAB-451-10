@@ -1,4 +1,4 @@
-
+#####CASO DE USO --> PROPONER PLATO
 class VistaPlato: #Las vistas es el mas complejo, avisamos todo el rato al usuario de lo que esta pasando
     def pedir_datos_plato(self):
         print("--- PROPONER UN NUEVO PLATO ---")
