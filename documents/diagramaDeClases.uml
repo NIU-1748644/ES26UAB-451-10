@@ -1,0 +1,92 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+' --- CLASES PRINCIPALES Y HERENCIA ---
+abstract class Usuario {
+    - id: String
+    - nombre: String
+    - email: String
+    - direccion: String
+    - alergias: List<String>
+    + iniciarSesion(): Boolean
+    + registrarPerfil(): Void
+}
+
+class Cliente {
+    - puntosAcumulados: Integer
+    - tarjetasCredito: List<String>
+    + realizarPedido()
+    + proponerPlato()
+    + valorarPedido()
+}
+
+class Cocinero {
+    - cuentaBancaria: String
+    - disponible: Boolean
+    - horaRetorno: Time
+    + publicarPlato()
+    + gestionarPedido()
+}
+
+class Repartidor {
+    - vehiculo: String
+    - ubicacionActual: String
+    + consultarMenuRepartos()
+    + realizarReparto()
+}
+
+Usuario <|-- Cliente
+Usuario <|-- Cocinero
+Usuario <|-- Repartidor
+
+' --- ENTIDADES DE NEGOCIO ---
+class Plato {
+    - idPlato: String
+    - titulo: String
+    - descripcion: String
+    - precioBase: Double
+    - foto: String
+    + verificarDisponibilidad(): Boolean
+}
+
+class Ingrediente {
+    - nombre: String
+    - esObligatorio: Boolean
+    - precioExtra: Double
+}
+
+class Pedido {
+    - idPedido: String
+    - fecha: Date
+    - estado: String
+    - costeTransporte: Double
+    - totalPrecio: Double
+    + calcularCosteTotal()
+    + modificarReceta()
+}
+
+class Mensaje {
+    - idMensaje: String
+    - contenido: String
+    - timestamp: DateTime
+}
+
+class PlanSuscripcion {
+    - tipoPlan: String
+    - precioMensual: Double
+    + aplicarDescuentoPuntos()
+}
+
+' --- RELACIONES Y MULTIPLICIDADES ---
+Cliente "1" -- "0..3" Pedido : realiza >
+Cocinero "1" -- "*" Plato : publica >
+Plato "1" *-- "*" Ingrediente : contiene >
+
+Pedido "*" -- "1" Cocinero : asignado a >
+Pedido "*" -- "0..1" Repartidor : transportado por >
+
+Cliente "1" -- "0..1" PlanSuscripcion : contrata >
+Cliente "1" -- "*" Mensaje : envia/recibe >
+Cocinero "1" -- "*" Mensaje : envia/recibe >
+
+@endum
