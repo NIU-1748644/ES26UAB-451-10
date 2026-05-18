@@ -1,3 +1,4 @@
+#####CASO DE USO --> PROPONER PLATO
 class Plato:
     def __init__(self, nombre, precio, descripcion):
         #Cada plato solo tiene nombre, precio descripcion y las fotos
