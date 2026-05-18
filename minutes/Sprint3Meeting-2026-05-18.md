@@ -4,8 +4,8 @@
 
 ### Asistencia: 
 - Santiago González Ballbé
-- Nil Vázquez Tarjuelo (Scrum Master)
-- Guilherme Jimenez Aguas
+- Nil Vázquez Tarjuelo 
+- Guilherme Jimenez Aguas (Scrum Master)
 - Uvén Díaz López
 
 ### Acta de la reunión: 
